@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@800&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Montserrat:wght@800&family=Rubik:wght@300&display=swap');
+
+/*====================================================================================*/
+
+
+/*Home*/
+
+
+/*====================================================================================*/
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(31, 31, 31);
+}
+
+.navbar-brand {
+    font-family: 'Rubik', !important;
+    color: #ffeb3b !important;
+}
+
+.navbar-nav {
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-activo {
+    border-bottom: 1px solid #ffe600;
+}
+
+.btn-general {
+    background-color: #ffe600;
+}
+
+.btb {
+    font-family: 'Rubik' !important;
+}
+
+.carousel-caption {
+    background-color: rgb(0 0 0 / 46%);
+    text-align: left;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.blockquote {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-top: 2px solid #7209b7;
+    border-bottom: 2px solid #7209b7;
+    animation-name: blockquote;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blockquote {
+    0% {
+        border-top: 2px solid #7209b7;
+        border-bottom: 2px solid #7209b7;
+    }
+    50% {
+        border-top: 2px solid #4361ee;
+        border-bottom: 2px solid #4361ee;
+    }
+    75% {
+        border-top: 2px solid #4cc9f0;
+        border-bottom: 2px solid #4cc9f0;
+    }
+    100% {
+        border-top: 2px solid #7209b7;
+        border-bottom: 2px solid #7209b7;
+    }
+}
+
+.typed {
+    font-family: 'bebas neue', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    color: #7209b7;
+    text-shadow: 2px 2px rgb(156, 156, 156);
+}
+
+.carousel-indicators li {
+    height: 5px;
+    background-color: #ffeb3b;
+    opacity: .6;
+}
+
+.boton {
+    background-color: #00bb2d;
+    color: white;
+}
+
+.footer {
+    height: 10rem;
+    background-color: rgba(226, 226, 226, 0.979);
+    animation-name: animacion-footer;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border-radius: 5px 5px 0 0;
+}
+
+.footer img {
+    display: flex;
+}
+
+.footer img:hover {
+    animation-name: vibracion;
+    animation-duration: .5s;
+}
+
+@keyframes vibracion {
+    0% {
+        -webkit-transform: rotateZ(-8deg);
+    }
+    50% {
+        -webkit-transform: rotateZ( 0deg);
+    }
+    100% {
+        -webkit-transform: rotateZ( 8deg);
+    }
+}
+
+
+/*====================================================================================*/
+
+
+/*Servicios*/
+
+
+/*====================================================================================*/
+
+.header-servicios {
+    height: 31.2rem;
+    background-image: url(https://scontent.fmxp7-1.fna.fbcdn.net/v/t31.18172-8/21762394_1719144965060188_6577409716212840418_o.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=ejFhNVTz910AX82BPk1&tn=ChLyab8odKBTO0t4&_nc_ht=scontent.fmxp7-1.fna&oh=f3cbb6f69ca6430e53a3014cff58f188&oe=6198942B);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-servicios .imagen-servicios {
+    height: 250px;
+}
+
+.card-servicios {
+    font-family: 'Montserrat';
+}
+
+.hover-wpp {
+    transition: ease-out .5s;
+}
+
+.hover-wpp:hover {
+    color: white;
+    border: 1px solid black;
+    background-color: #00bb2d;
+}
+
+
+/*====================================================================================*/
+
+
+/*Sobre Nosotros*/
+
+
+/*====================================================================================*/
+
+.card-nosotros {
+    margin: -1rem -1rem -10rem -1rem;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(0 0 0 / 30%);
+    border-radius: 5px;
+    font-family: 'Lato';
+}
+
+.card-titulo {
+    font-family: 'Montserrat';
+}
+
+.typed-nosotros {
+    margin-top: 8rem;
+}
+
+.card-btb {
+    font-family: 'Lato';
+}
+
+
+/*====================================================================================*/
+
+
+/*Nuestros eventos*/
+
+
+/*====================================================================================*/
+
+.carousel-eventos {
+    margin: rem;
+}
+
+
+/*====================================================================================*/
+
+
+/*Contacto*/
+
+
+/*====================================================================================*/
+
+.botones-contacto {
+    margin-top: rem;
+}
+
+.boton-contacto {
+    display: flex;
+    margin-bottom: 1rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    transition: ease-out .5s;
+}
+
+.boton-contacto:hover {
+    background-color: #ffeb3b;
+    color: rgb(0, 0, 0);
+}
+
+.icono-contacto {
+    height: 2rem;
+    transition: ease-out .8s;
+}
+
+.boton-tel {
+    background-color: #4cc9f0;
+    color: white;
+}
+
+.boton-wpp {
+    background-color: #00bb2d;
+    color: white;
+}
+
+.icono-wpp {
+    margin-left: 1.5rem;
+}
+
+.boton-mail {
+    background-color: #C71610;
+    color: white;
+}
+
+.icono-mail {
+    margin-left: -.5rem;
+}
+
+.boton-redes {
+    text-align: center;
+    width: 49%;
+}
+
+.facebook:hover {
+    background-color: #1877f2;
+}
+
+.instagram:hover {
+    background-color: #9900ff;
+}
+
+
+/*====================================================================================*/
+
+
+/*Optimizacion para Laptop L y M, tables y smartphones S,M y L*/
+
+
+/*====================================================================================*/
+
+@media (min-width:1200px) {
+    .card-body .boton-servicios {
+        margin-top: 5rem;
+    }
+    .card-leo p {
+        margin-top: 8rem;
+    }
+}
+
+@media (min-width:1100px) {
+    .header-servicios {
+        height: 32.5rem;
+    }
+    .container-servicios {
+        margin-top: 6rem;
+    }
+    .card-nosotros {
+        height: 107%;
+    }
+}
+
+@media (min-width:991px) {
+    .boton-servicios {
+        margin-top: 5rem;
+    }
+    .container-servicios {
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width:1024px) {
+    .card-nosotros {
+        height: 109%;
+    }
+}
+
+@media (max-width:768px) {
+    .navbar-collapse {
+        background-color: rgba(211, 211, 211, 0.5);
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .card-nosotros {
+        height: 113%;
+    }
+}
+
+@media (max-width:425px) {
+    body {
+        overflow-x: hidden;
+    }
+    .navbar-collapse {
+        background-color: rgba(211, 211, 211, 0.5);
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .servicios-mt {
+        margin-top: 1rem;
+    }
+    .card-nosotros {
+        height: 125%;
+    }
+}
+
+@media (max-width:375px) {
+    .contactanos {
+        display: none;
+    }
+    .card-nosotros {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width:320px) {
+    .navbar {
+        background-color: black !important;
+    }
+    .navbar-collapse {
+        background-color: black !important;
+    }
+    #banner {
+        margin-top: 5rem;
+    }
+    .contactanos {
+        display: none;
+    }
+    .whatsapp {
+        margin-top: -1rem !important;
+    }
+    .sobre-nos {
+        margin-top: -1rem !important;
+    }
+    .eventos {
+        margin-top: -1rem !important;
+    }
+    .card-nosotros {
+        overflow-y: scroll;
+    }
+}
+
+
+/*====================================================================================*/

@@ -1,0 +1,17 @@
+
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+  
+    margin-top: 3rem;
+    padding: 10px;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 5px;
+}
