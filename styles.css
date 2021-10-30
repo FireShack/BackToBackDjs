@@ -346,6 +346,7 @@ body {
     }
     .card-nosotros {
         height: 125%;
+        overflow-y: auto;
     }
 }
 
