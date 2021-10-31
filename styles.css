@@ -101,9 +101,6 @@ body {
 .footer {
     height: 10rem;
     background-color: rgba(226, 226, 226, 0.979);
-    animation-name: animacion-footer;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
     border-radius: 5px 5px 0 0;
 }
 
@@ -202,10 +199,6 @@ body {
 
 /*====================================================================================*/
 
-.carousel-eventos {
-    margin: rem;
-}
-
 
 /*====================================================================================*/
 
@@ -214,10 +207,6 @@ body {
 
 
 /*====================================================================================*/
-
-.botones-contacto {
-    margin-top: rem;
-}
 
 .boton-contacto {
     display: flex;
