@@ -321,7 +321,7 @@ body {
 
 @media (max-width:768px) {
     .navbar-collapse {
-        background-color: rgba(211, 211, 211, 0.5);
+        background-color: rgba(43, 43, 43, 0.5);
         border-radius: 10px;
         padding-left: 10px;
         padding-bottom: 10px;
@@ -336,7 +336,7 @@ body {
         overflow-x: hidden;
     }
     .navbar-collapse {
-        background-color: rgba(211, 211, 211, 0.5);
+        background-color: rgba(43, 43, 43, 0.5);
         border-radius: 10px;
         padding-left: 10px;
         padding-bottom: 10px;
